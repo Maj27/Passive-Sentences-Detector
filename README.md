@@ -20,3 +20,8 @@ There are three main python files for this project as well as three text files. 
 3-  request.py:
     In this file, a POST request with the text content is sent as a payload. It calls the passive_app API to make the prediction.
 
+4- The three text files include 2nd_Gore-Bush.txt, the corpus used. Active.txt and Passive.txt have additional active and passive sentences, respectively.
+
+
+To run the program you just need to load the trained models from the pickel file and host the API then test it using the request file. If you would like to go over the steps and retrain the models then you can use the Passive-Sentences-Detector (Building the models).ipynp file. The file also contains some unittest functions, however, these are not complete as I didn't have much time to do extensive tests. But it's worth mentioning that all functions were thoroughly tested during the development phase.
+ 
